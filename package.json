@@ -1,0 +1,29 @@
+{
+  "name": "wechat-mall",
+  "version": "1.0.0",
+  "description": "一个微信商城demo\r - NodeJS\r - PostgreSQL\r - Redis\r - RabbitMQ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangjpn/wechat-mall.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangjpn/wechat-mall/issues"
+  },
+  "homepage": "https://github.com/zhangjpn/wechat-mall#readme",
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "koa": "^2.6.2",
+    "koa-body": "^4.0.6",
+    "koa-compose": "^4.1.0",
+    "koa-helmet": "^4.0.0",
+    "koa-morgan": "^1.0.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  }
+}

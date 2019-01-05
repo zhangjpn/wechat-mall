@@ -13,5 +13,8 @@ const ajv = new Ajv({
 const isParamValid = module.exports.isParamValid = (schema, body) => {
     let validator = ajv.compile(schema);
     let isValid = validator(body);
+    if (!isValid) {
+        console.warn(JSON.stringify(validator.errors));
+    }
     return isValid;
 }

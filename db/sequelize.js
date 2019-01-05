@@ -16,6 +16,9 @@ module.exports.connect = async (config) => {
       acquire: 30000,
       idle: 10000
     },
+    define: {
+      timestamps: false
+    },
     // 请参考 Querying - 查询 操作符 章节
     operatorsAliases: false
   });

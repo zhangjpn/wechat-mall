@@ -9,5 +9,4 @@ redis.connect(config).then(db => {
     return db.getAsync('a');
 }).then(a => {
     console.log('a', a);
-
 })
